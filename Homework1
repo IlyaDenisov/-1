@@ -4,12 +4,12 @@
 
 int main()
 {
-    char numeric;
-    while ((numeric = getchar()) 
-        && numeric != '\n'
-        && numeric != '\0')
+    char num;
+    while ((num = getchar()) 
+        && num != '\n'
+        && num != '\0')
     {
-        switch (numeric)
+        switch (num)
         {
         case ' ':
         case '-':
@@ -24,7 +24,7 @@ int main()
         case '7':
         case '8':
         case '9':
-            printf("%c", numeric);
+            printf("%c", nume);
             break;
         case '.':
             printf(" | ");
