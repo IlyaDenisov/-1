@@ -23,10 +23,12 @@ int main()
         case '8':
         case '9':
             printf("%c", a);
+        case '-':
+            printf("");
             break;
         default:
             printf("ERROR\n\n");
         }
     }
-    printf("\n");    
+    printf("\n");
 }
