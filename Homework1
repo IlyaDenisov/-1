@@ -1,11 +1,15 @@
+#include <stdio.h>
+#include <stdint.h>
+#include <stdlib.h>
+
 int main()
 {
-    char num;
-    while ((num = getchar())
-        && num != '\n'
-        && num != '\0')
+    char a;
+    while ((a = getchar())
+        && a != '\n'
+        && a != '\0')
     {
-        switch (num)
+        switch (a)
         {
         case '.':
             printf(" | ");
@@ -20,11 +24,11 @@ int main()
         case '7':
         case '8':
         case '9':
-            printf("%c", num);
+            printf("%c", a);
             break;
         default:
             printf("Bug\n\n");
         }
     }
-    printf("\n");
-    }
+    printf("\n");    
+}
