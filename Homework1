@@ -21,7 +21,7 @@ int main()
         case '7':
         case '8':
         case '9':
-            printf("%c", nume);
+            printf("%c", num);
             break;
         case '.':
             printf(" | ");
