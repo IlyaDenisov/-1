@@ -11,9 +11,6 @@ int main()
     {
         switch (num)
         {
-        case ' ':
-        case '-':
-            break;
         case '0':
         case '1':
         case '2':
