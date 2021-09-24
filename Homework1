@@ -25,7 +25,7 @@ int main()
             printf("%c", a);
             break;
         default:
-            printf("Bug\n\n");
+            printf("ERROR\n\n");
         }
     }
     printf("\n");    
